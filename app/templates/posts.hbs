@@ -1,0 +1,9 @@
+<h1>Posts</h1>
+
+<ul>
+{{#each model}}
+  <li>{{link-to title 'posts.show' this}}</li>
+{{/each}}
+</ul>
+
+{{outlet}}

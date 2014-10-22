@@ -1,0 +1,12 @@
+<h1>Participants</h1>
+
+<form role="form" {{action "update" on="submit"}}>
+  <legend class="hide">You can now add your partners.</legend>
+
+  <div class="form-group">
+    <label for="description">Pick your partners</label>
+    {{input type="text" name="Partners" value=controller.partners class="form-control"}}
+  </div>
+
+  <button type="submit" class="btn btn-default">Next step</button>
+</form>
